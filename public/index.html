@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.runtime.js"></script>
+		<script type="text/javascript" src="/src/muestraBusqueda.precompiled.js"></script>
+		<script type="text/javascript" src="/src/procesaBusqueda.js" async></script>
+		<title>Pruebas conexión</title>
+	</head>
+	<body>
+		<h1>Buscador BD movies</h1>
+		
+		<p><input type="text" name="search" id="id_text_search"> <button value="Buscar" id="id_search">Buscar</button></p>
+		<p>
+			<input type="radio" id="id_text" name="options" value="text">
+			<label for="id_text">Texto</label>
+			<input type="radio" id="id_countries" name="options" value="countries">
+			<label for="id_countries">Paises</label>
+			<input type="radio" id="id_genre" name="options" value="genre">
+			<label for="id_genre">Género</label>
+			<input type="radio" id="id_cast" name="options" value="cast">
+			<label for="id_cast">Reparto</label>
+		</p>
+		<p id="resultados"></p>
+	</body>
+</html>

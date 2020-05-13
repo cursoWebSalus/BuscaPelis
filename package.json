@@ -1,0 +1,22 @@
+{
+  "name": "buscapelis",
+  "version": "1.0.0",
+  "description": "\"buscador para la bd de ejemplo de MongoDb mflix\"",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Jano Soler",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "handlebars": "^4.7.6",
+    "jest": "^26.0.1",
+    "mongodb": "^3.5.7"
+  }
+}
